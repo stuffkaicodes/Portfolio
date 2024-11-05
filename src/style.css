@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    to bottom,
+    rgba(17, 16, 16, 0.282),
+    rgba(12, 8, 24, 0.504)
   );
 
   --image-gradient: linear-gradient(
@@ -12,6 +12,11 @@ html {
   );
 
   --imp-text-color: #c770f0;
+}
+
+html, body{
+  margin: 0;
+  height: 100%;
 }
 
 .purple {
@@ -85,8 +90,9 @@ button:focus {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  padding: 2rem 4rem !important;
+  font-size: 2rem !important;
+  flex: 0 0 auto;
 }
 
 .navbar-toggler {
@@ -155,8 +161,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2rem !important;
+  width: 3.75rem !important;
 }
 
 .navbar-nav .nav-link {
@@ -177,7 +183,7 @@ button:focus {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  margin-left: 1.5rem;
 }
 
 .navbar-nav .nav-item a {
@@ -242,26 +248,28 @@ button:focus {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -999;
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 6rem !important;
 }
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: 0;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 3rem !important;
+  padding-top: 3rem !important;
 }
 
 .home-content {
@@ -272,12 +280,12 @@ button:focus {
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 2rem !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 2rem !important;
 }
 
 .main-name {
@@ -325,13 +333,13 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  padding-top: 2rem !important;
+  padding-bottom: 1rem !important;
   text-align: center;
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 1rem;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -404,8 +412,8 @@ button:focus {
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-top: 1rem !important;
+  padding-bottom: 2rem !important ;
 }
 .footer-copywright {
   text-align: center !important;
@@ -462,7 +470,7 @@ button:focus {
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
-  background-color: transparent !important;
+  background-color:  rgba(23, 17, 23, 0.856) !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -470,7 +478,8 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(180, 91, 202, 0.513) !important;
+  background-color:  rgba(96, 82, 96, 0.852) !important;
 }
 
 .blog-card {
