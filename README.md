@@ -2,31 +2,30 @@
   Phyllis ' Portfolio<br/>
   <a href="https://myportfolio-8mzr1gwvl-stuffkaicodes-projects.vercel.app/" target="_blank">Live Site Here</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
-<br/>
+<center>
+    Welcome to my Portfolio Repository 👋 🤗  </br>
+    I want to achieve nuanced solutions with beautiful UIUX and stellar code. </br> 
+</center>
 
-## Built With
+</br>
+</br>
+
+## Key Projects:
+<h4>
+  #1️⃣ : Gym Web-App: A mobile environment web-app built with React and Node.js to randomize and keep track of my gym workouts. The project challenged me to work with existing APIs, and my problem solving skills to refactor and keep clean code. </br></br>
+  #2️⃣ : A UI/UX System I built for Love, Bonito which focused on User Centric Design and change in marketing strategies to capitalize shifts to mobile based e-commerce. 
+  
+</h4>
+
+</br></br>
+
+## Key Skills:
+<h4>
+MERN Stack and MEAN Stack, SQL and noSQL database manipulation, Python, HTML, CSS, Javascript </h4>
 
 
-## To Recreate A Live Site
-
-Clone this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
+## 📬 Contact
+Feel free to reach out to me for collaborations or job opportunities via:
+- [LinkedIn](https://www.linkedin.com/in/phyllis-l-51302b281/)
+- Email: [phyllislimenkai@gmail.com]
