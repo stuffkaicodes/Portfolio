@@ -1,33 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
 import Projects from "../Projects/Projects.js";
-import pdf from "../../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { AiOutlineDownload } from "react-icons/ai";
 
-
-const handleDownload = () => {
-  // console.log('buttonClicked!')
-  // // Create a temporary anchor element
-  // const link = document.createElement('a');
-  // link.href = pdf; // Set the href to the PDF file
-  // link.download = 'document.pdf'; // Specify the default name for the downloaded file
-
-  // // Append to the body to make it work in Firefox
-  // document.body.appendChild(link);
-  
-  // // Programmatically click the link to trigger the download
-  // link.click();
-  
-  // // Remove the link from the document
-  // document.body.removeChild(link);
-};
-
 function Home() {
+
+  const [pdf , setPdf] = useState('');
+
+  useEffect(async () => {
+    try {const res = await fetch('https://docs.google.com/document/d/1pVSamYtM4upjQNK86KDsrZYrI2_kXyD6DdloQX9oA_k/export?format=pdf');
+    setPdf(res.url);
+    } 
+    catch(error){
+      console.log(error);
+    }
+  })
+
   return (
     <>
     <section>
@@ -37,7 +30,6 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                {/* Hi There!{" "} */}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>

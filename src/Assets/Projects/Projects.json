@@ -4,62 +4,48 @@
         "title": "To-Do List BOT 🤖 ",
         "description": "Python Telegram Bot to create and interactive todo-list and alert messaging system.",
         "ghLink": "https://github.com/stuffkaicodes/todolist_alert_automation_telebot_python.git",
-        "demoLink": "https://t.me/todaytodolist_bot"
+        "demoLink": "https://t.me/todaytodolist_bot",
+        "image": "telebot"
     },
     {
         "id": 2,
-        "title": "Project Two",
-        "description": "This is a brief description of Project Two.",
-        "ghLink": "https://github.com/your-username/project-two",
-        "demoLink": "https://your-demo-link.com/project-two"
-    },
-    {
-        "id": 3,
-        "title": "Project Three",
-        "description": "This is a brief description of Project Three.",
-        "ghLink": "https://github.com/your-username/project-three",
-        "demoLink": "https://your-demo-link.com/project-three"
+
+        "title": "Flight System Monitoring Dashboard ",
+        "description": "Comprehensive web application designed to provide real-time monitoring and management of flight operation electronic boards, enhancing operational efficiency for airport management teams.",
+        "ghLink": "https://github.com/your-username/project-four",
+        "demoLink": "https://your-demo-link.com/project-four",
+        "image": "dashboard"
     },
     {
         "id": 4,
-        "title": "Project Four",
-        "description": "This is a brief description of Project Four.",
-        "ghLink": "https://github.com/your-username/project-four",
-        "demoLink": "https://your-demo-link.com/project-four"
+        "title": "Marketplace Platform",
+        "description": "Web-App Marketplace Platform for Trip Congregation created for #Hack Hackathon.",
+        "ghLink": "https://github.com/your-username/project-three",
+        "demoLink": "https://your-demo-link.com/project-three",
+        "image": "marketplace"
+    },
+    {
+        "id": 3,
+        "title": "Peronalized Workout Web-App 🌐",
+        "description": "For my personal use so I don't get bored of working out at the gym.",
+        "ghLink": "https://github.com/your-username/project-two",
+        "demoLink": "https://your-demo-link.com/project-two",
+        "image": "gym"
     },
     {
         "id": 5,
         "title": "Project Five",
         "description": "This is a brief description of Project Five.",
         "ghLink": "https://github.com/your-username/project-five",
-        "demoLink": "https://your-demo-link.com/project-five"
+        "demoLink": "https://your-demo-link.com/project-five",
+        "image": ""
     },
     {
         "id": 6,
         "title": "Project Six",
         "description": "This is a brief description of Project Six.",
         "ghLink": "https://github.com/your-username/project-six",
-        "demoLink": "https://your-demo-link.com/project-six"
-    },
-    {
-        "id": 7,
-        "title": "Project Seven",
-        "description": "This is a brief description of Project Seven.",
-        "ghLink": "https://github.com/your-username/project-seven",
-        "demoLink": "https://your-demo-link.com/project-seven"
-    },
-    {
-        "id": 8,
-        "title": "Project Eight",
-        "description": "This is a brief description of Project Eight.",
-        "ghLink": "https://github.com/your-username/project-eight",
-        "demoLink": "https://your-demo-link.com/project-eight"
-    },
-    {
-        "id": 9,
-        "title": "Project Nine",
-        "description": "This is a brief description of Project Nine.",
-        "ghLink": "https://github.com/your-username/project-nine",
-        "demoLink": "https://your-demo-link.com/project-nine"
+        "demoLink": "https://your-demo-link.com/project-six",
+        "image": ""
     }
 ]

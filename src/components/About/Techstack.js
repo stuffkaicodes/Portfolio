@@ -6,65 +6,59 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
+  SiPython,
+  SiTableau,
+  SiMysql
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { FiDatabase, FiLock } from 'react-icons/fi';
+import { BiNetworkChart } from 'react-icons/bi';
 
 function Techstack() {
   return (
+    // <div style={{display: 'grid'}}>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <BiNetworkChart />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <FiDatabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <FiLock/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiMysql/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit/>
       </Col>
     </Row>
+    // </div>
   );
 }
 

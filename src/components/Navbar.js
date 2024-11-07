@@ -3,15 +3,14 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog, ImLinkedin  } from "react-icons/im";
+import { ImLinkedin  } from "react-icons/im";
 import { IoLogoGithub } from 'react-icons/io';
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineUser,
+  AiOutlineBook
 } from "react-icons/ai";
 
 function NavBar() {
@@ -28,10 +27,6 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
-  const GitHubClick = () => {
-    window.open('https://github.com/stuffkaicodes', '_blank'); // Opens in a new tab
-  }
-
   return (
     <Navbar
       expanded={expand}
@@ -40,9 +35,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        <Nav.Item>
+          <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+            <AiOutlineHome style={{ color: "white", marginBottom: "2px" }} />
+          </Nav.Link>
+        </Nav.Item>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -55,11 +52,6 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} />
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -76,7 +68,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} />
+                <AiOutlineBook style={{ marginBottom: "2px" }} />
               </Nav.Link>
             </Nav.Item>
 
@@ -85,16 +77,16 @@ function NavBar() {
               href='https://github.com/stuffkaicodes?tab=repositories'
               target="_blank"
               rel="noreferrer">
-                <IoLogoGithub style={{marginBottom: "2px", size: "8rem", marginRight:'0.75rem'}} /> GitHub
+                <IoLogoGithub style={{marginBottom: "2px", size: "8rem", marginRight:'0.75rem'}} />
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-              href='https://github.com/stuffkaicodes?tab=repositories'
+              href='https://www.linkedin.com/in/phyllis-l-51302b281/'
               target="_blank"
               rel="noreferrer">
-                <ImLinkedin style={{marginBottom: "2px", size: "8rem", marginRight:'0.75rem'}} /> LinkedIn 
+                <ImLinkedin style={{marginBottom: "2px", size: "8rem", marginRight:'0.75rem'}} /> 
               </Nav.Link>
             </Nav.Item>
           </Nav>
