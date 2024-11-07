@@ -270,7 +270,7 @@ button:focus {
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
   padding-top: 3rem !important;
 }
 
