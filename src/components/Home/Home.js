@@ -13,7 +13,7 @@ function Home() {
   const [pdf , setPdf] = useState('');
 
   useEffect(async () => {
-    try {const res = await fetch('https://docs.google.com/document/d/11_3uuc7K7F4PkwPDUUx3RnRk3mp_YIaCVSJiBM3nkbM/edit?usp=sharing');
+    try {const res = await fetch('https://docs.google.com/document/d/11_3uuc7K7F4PkwPDUUx3RnRk3mp_YIaCVSJiBM3nkbM/download?usp=sharing');
     setPdf(res.url);
     } 
     catch(error){
