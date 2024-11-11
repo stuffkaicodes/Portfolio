@@ -13,7 +13,7 @@ function Home() {
   const [pdf , setPdf] = useState('');
 
   useEffect(async () => {
-    try {const res = await fetch('https://docs.google.com/document/d/11_3uuc7K7F4PkwPDUUx3RnRk3mp_YIaCVSJiBM3nkbM/download?usp=sharing');
+    try {const res = await fetch('https://docs.google.com/document/d/11_3uuc7K7F4PkwPDUUx3RnRk3mp_YIaCVSJiBM3nkbM/export?format=pdf');
     setPdf(res.url);
     } 
     catch(error){
@@ -39,10 +39,6 @@ function Home() {
                 <strong style={{display: 'block', marginBottom:'1rem'}} className="main-name"> Phyllis' Portfolio</strong>
                 UI/UX Design. JS/Python Full-Stack Developer. Project Mangement. 
               </h1>
-
-              <div style={{ padding: '2.5rem' }}>
-              <Type />
-              </div>
               {/* <Row style={{ paddingLeft:"2.5rem", position: "relative", zIndex:'9999'}}> */}
               <Button
                 variant="primary"
@@ -58,7 +54,7 @@ function Home() {
               </Button>
               {/* </Row> */}
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ marginTop: '5rem', paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -67,6 +63,9 @@ function Home() {
               />
             </Col>
           </Row>
+          <div style={{ padding: '2.5rem' }}>
+            <Type style={{ width: '100%'}} />
+            </div>
         </Container>
       </Container>
       <Projects></Projects>
