@@ -7,7 +7,7 @@
     Welcome to Phyllis' Portfolio Repository 👋 🤗  </br>
     This Portfolio was created using ReactJS, and various CSS packages for ease of styling.</br>
     As a Designer that has experience in code, I want to achieve nuanced solutions with useful, beautiful UI and stellar code. </br> 
-    All credits for the boilerplate goes to Souji. </br>
+    All credits for the boilerplate goes to Soumyajit. </br>
 </center>
 
 </br>
