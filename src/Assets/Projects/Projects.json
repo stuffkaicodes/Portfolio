@@ -9,43 +9,26 @@
     },
     {
         "id": 2,
-
-        "title": "Flight System Monitoring Dashboard ",
-        "description": "Comprehensive web application designed to provide real-time monitoring and management of flight operation electronic boards, enhancing operational efficiency for airport management teams.",
-        "ghLink": "https://github.com/your-username/project-four",
-        "demoLink": "https://your-demo-link.com/project-four",
-        "image": "dashboard"
+        "title": "Peronalized Workout Web-App 🌐",
+        "description": "For my personal use so I don't get bored of working out at the gym.",
+        "ghLink": "https://github.com/stuffkaicodes/gymgainz",
+        "demoLink": "https://your-demo-link.com/project-two",
+        "image": "gym"
     },
     {
         "id": 4,
         "title": "Marketplace Platform",
         "description": "Web-App Marketplace Platform for Trip Congregation created for #Hack Hackathon.",
-        "ghLink": "https://github.com/your-username/project-three",
-        "demoLink": "https://your-demo-link.com/project-three",
+        "ghLink": "https://github.com/stuffkaicodes/marketplace.git",
+        "demoLink": "https://docs.google.com/presentation/d/1GQApdHXcE37VdJpGSi8CN9GoQHVKborc1AQ3G4v5jXw/edit?usp=drive_link",
         "image": "marketplace"
     },
     {
         "id": 3,
-        "title": "Peronalized Workout Web-App 🌐",
-        "description": "For my personal use so I don't get bored of working out at the gym.",
-        "ghLink": "https://github.com/your-username/project-two",
-        "demoLink": "https://your-demo-link.com/project-two",
-        "image": "gym"
-    },
-    {
-        "id": 5,
-        "title": "Project Five",
-        "description": "This is a brief description of Project Five.",
-        "ghLink": "https://github.com/your-username/project-five",
-        "demoLink": "https://your-demo-link.com/project-five",
-        "image": ""
-    },
-    {
-        "id": 6,
-        "title": "Project Six",
-        "description": "This is a brief description of Project Six.",
-        "ghLink": "https://github.com/your-username/project-six",
-        "demoLink": "https://your-demo-link.com/project-six",
-        "image": ""
+        "title": "Flight System Monitoring Dashboard ",
+        "description": "Comprehensive web application designed to provide real-time monitoring and management of flight operation electronic boards, enhancing operational efficiency for airport management teams.",
+        "ghLink": "https://github.com/your-username/project-four",
+        "demoLink": "hhttp://example.com/",
+        "image": "dashboard"
     }
 ]
