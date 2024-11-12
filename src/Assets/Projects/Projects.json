@@ -12,7 +12,7 @@
         "title": "Peronalized Workout Web-App 🌐",
         "description": "For my personal use so I don't get bored of working out at the gym.",
         "ghLink": "https://github.com/stuffkaicodes/gymgainz",
-        "demoLink": "https://your-demo-link.com/project-two",
+        "demoLink": "",
         "image": "gym"
     },
     {
@@ -28,7 +28,7 @@
         "title": "Flight System Monitoring Dashboard ",
         "description": "Comprehensive web application designed to provide real-time monitoring and management of flight operation electronic boards, enhancing operational efficiency for airport management teams.",
         "ghLink": "https://github.com/your-username/project-four",
-        "demoLink": "hhttp://example.com/",
+        "demoLink": "",
         "image": "dashboard"
     }
 ]

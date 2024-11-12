@@ -3,20 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import telebot from "../../Assets/Projects/Telebot.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import hack from "../../Assets/Projects/Hack.png";
+import gym from "../../Assets/Projects/gym.png";
+import dashboard from "../../Assets/Projects/dashboard.png";
 import details from "../../Assets/Projects/Projects.json";
 
 function Projects() {
 
   const images = {
     "telebot": telebot,
-    "gym": "", 
-    "dashboard": "",
-    "project": ""
+    "gym": gym, 
+    "dashboard": dashboard,
+    "project": "",
+    "marketplace": hack
   }
   return (
     <Container fluid className="project-section">
@@ -36,7 +35,7 @@ function Projects() {
                     title={project.title}
                     description={project.description}
                     ghLink={project.ghLink}
-                    demoLink={project.demoLink}
+                    demoLink={project.demoLink ? project.demoLink : null}
                     imgPath={images[project.image]}
                   />
                 </Col>
